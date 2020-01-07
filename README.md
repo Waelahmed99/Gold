@@ -1,7 +1,7 @@
 # Welcome to (G)old project
 Gaming-old is an SFML C++ project which contains some old games :heartpulse:
 
-![Main-menu-image](https://i.ibb.co/0KTTKKs/Screenshot-from-2020-01-07-18-01-05.png) ![Offline-games-image](hhttps://i.ibb.co/bvvbhQs/Screenshot-from-2020-01-07-18-01-09.png)
+![Main-menu-image](https://github.com/Waelahmed99/Gold/blob/master/readme-images/main-menu.png) ![Offline-games-image](https://github.com/Waelahmed99/Gold/blob/master/readme-images/offline-games.png)
 
 **Current included games**
 ```
@@ -20,7 +20,7 @@ Car racing
 
 **Current done and playable games**
 - [x] [8bit Snake](States/SnakeState.h) :snake:  
-  ![Snake game image](https://i.ibb.co/T2V8PT3/Screenshot-from-2020-01-07-18-01-47.png)
+  ![Snake game image](https://github.com/Waelahmed99/Gold/blob/master/readme-images/snake-game.png)
 
 > Note that project content is changable, new games may be added by time
 
