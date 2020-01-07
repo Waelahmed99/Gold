@@ -5,11 +5,10 @@
 namespace GameEngine {
     class SettingsState : public State {
     public:
-        virtual int Run(RenderWindow&);
+        int Run(RenderWindow&) override;
 
     private:
-        RenderWindow* _window;
-
-        void draw();
+        void draw() override;
+        void init() override;
     };
 }

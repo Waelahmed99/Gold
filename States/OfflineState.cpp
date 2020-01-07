@@ -2,24 +2,12 @@
 #include "MenuState.h"
 
 namespace GameEngine {
-    void OfflineState::draw() {
-        _window->clear();
-
-        // Draw here.
-        _window->draw(_background);
-        _menu.drawMenu();
-
-        _window->display();
-    }
-
-    int OfflineState::Run(RenderWindow &window) {
-        _window = &window;
+    void OfflineState::init() {
         _window->create(VideoMode(SCREEN_WIDTH, SCREEN_HEIGHT), OFFLINE_TITLE);
 
         Font font; font.loadFromFile("../Resources/fonts/DancingScript-Regular.otf");
-        _menu.setupMenu(font, 30, Color::Red);
-        _menu.setWindow(*_window);
 
+        // Names for menu items.
         string names[] = {
                 SNAKE_NAME,
                 MINESWEEPER_NAME,
@@ -27,9 +15,17 @@ namespace GameEngine {
                 RACING_NAME,
                 BACK_NAME
         };
+
+        // Setup menu.
+        _menu.setupMenu(font, 30, Color::Red);
+        _menu.setWindow(*_window);
         for (const auto &name : names) {
             _menu.addItem(name);
         }
+    }
+
+    int OfflineState::Run(RenderWindow &window) {
+        _window = &window;
 
         _backgroundTex.loadFromFile(OFFLINE_BACKGROUND);
         _background.setTexture(_backgroundTex);
@@ -66,4 +62,13 @@ namespace GameEngine {
         return EXIT;
     }
 
+    void OfflineState::draw() {
+        _window->clear();
+
+        // Draw here.
+        _window->draw(_background);
+        _menu.drawMenu();
+
+        _window->display();
+    }
 }

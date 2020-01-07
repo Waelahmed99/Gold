@@ -10,10 +10,9 @@ namespace GameEngine {
 
     class SnakeState : public State {
     public:
-        virtual int Run(RenderWindow&);
+        int Run(RenderWindow&) override;
 
     private:
-        RenderWindow* _window;
         Snake _snake;
         Egg egg;
         int _width, _height;
@@ -21,12 +20,13 @@ namespace GameEngine {
         int _score;
         queue<Dir> _dirQueue;
 
-        void init();
-        bool isDirection(Dir, Dir);
-        void draw();
         void move();
         void generateEgg();
+        bool isDirection(Dir, Dir);
         void setTextCoord(Text&, int, Color);
         void setRectangleProperties(RectangleShape&, int, Color, int, int);
+
+        void draw() override;
+        void init() override;
     };
 }

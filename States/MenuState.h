@@ -11,12 +11,11 @@ namespace GameEngine {
         int Run(RenderWindow&) override;
 
     private:
-        RenderWindow* _window{};
         Menu _menu;
         Texture _backgroundTex;
         Sprite _backgroundSprite;
 
-        void draw();
-        void init();
+        void draw() override;
+        void init() override;
     };
 }

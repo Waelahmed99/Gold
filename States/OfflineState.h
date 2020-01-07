@@ -7,16 +7,14 @@
 namespace GameEngine {
     class OfflineState : public State {
     public:
-        OfflineState() = default;
-
-        virtual int Run(RenderWindow&);
+        int Run(RenderWindow&) override;
 
     private:
-        RenderWindow *_window;
         Menu _menu;
         Texture _backgroundTex;
         Sprite _background;
 
-        void draw();
+        void draw() override;
+        void init() override;
     };
 }
