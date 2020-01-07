@@ -24,4 +24,8 @@ Car racing
 ## Credits
 **Fonts**  
 - [Something strange](https://github.com/Waelahmed99/Gold/blob/master/Resources/fonts/SomethingStrange-vjYD.ttf) from [Fontspace](https://www.fontspace.com/jonathan-s-harris/something-strange)
-- [Dancing Script](https://github.com/Waelahmed99/Gold/blob/master/Resources/fonts/SomethingStrange-vjYD.ttf) from [Fontsquirrel](https://www.fontsquirrel.com/fonts/dancing-script-ot)
+- [Dancing Script](https://github.com/Waelahmed99/Gold/blob/master/Resources/fonts/SomethingStrange-vjYD.ttf) from [Fontsquirrel](https://www.fontsquirrel.com/fonts/dancing-script-ot)  
+
+**Images**
+- [Menu background](https://github.com/Waelahmed99/Gold/blob/master/Resources/res/menu_background.jpg) by [Brandon Frederickson](https://dribbble.com/BfredDesign)
+- [Offline background](https://github.com/Waelahmed99/Gold/blob/master/Resources/res/offline_background.jpg) from [Freepik](https://www.freepik.com/free-photos-vectors/background)
