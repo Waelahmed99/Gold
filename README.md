@@ -8,7 +8,7 @@ Minesweeper
 Arkanoid
 Car racing
 ```
-> This project is still under development, If you have any suggestion or improvement please issue it here
+> This project is still under development, If you have any suggestion or improvement please issue it [here](https://github.com/Waelahmed99/-G-old/issues/new)
 
 ### Project sections  
 - [States directory](States) for Screens  
