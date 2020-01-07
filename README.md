@@ -17,7 +17,7 @@ Car racing
 - [Model](model) for model classes like players
 
 **Current done and playable games**
-- [x] [8bit Snake](States/SnakeState.hpp) :snake:
+- [x] [8bit Snake](States/SnakeState.h) :snake:
 
 > Note that project content is changable, new games may be added by time
 
