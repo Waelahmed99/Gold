@@ -14,7 +14,7 @@ Car racing
 - [States directory](States) for Screens  
 - [Resources directory](Resources) for assets like [images](Resources/res) and [Fonts](Resources/fonts)
 - [Managers directory](Managers) for handlers and helpers
-- [Models directory](model) for model classes like players
+- [Models directory](models) for model classes like players
 
 **Current done and playable games**
 - [x] [8bit Snake](States/SnakeState.h) :snake:
