@@ -1,7 +1,7 @@
 # Welcome to (G)old project
 Gaming-old is an SFML C++ project which contains some old games :heartpulse:
 
-![Main menu](https://i.ibb.co/0KTTKKs/Screenshot-from-2020-01-07-18-01-05.png) ![Offline games](https://i.ibb.co/bvvbhQs/Screenshot-from-2020-01-07-18-01-09.png)
+![Main-menu-image](https://i.ibb.co/0KTTKKs/Screenshot-from-2020-01-07-18-01-05.png) ![Offline-games-image](hhttps://i.ibb.co/bvvbhQs/Screenshot-from-2020-01-07-18-01-09.png)
 
 **Current included games**
 ```
