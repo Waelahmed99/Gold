@@ -1,5 +1,5 @@
 # Welcome to (G)old project
-Gaming-old is a SFML C++ project which contains some old games :heartpulse:
+Gaming-old is an SFML C++ project which contains some old games :heartpulse:
 
 **Current included games**
 ```
