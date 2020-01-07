@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="tic_tac_toe"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\cmake_modules\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/wael/Desktop/tic-tac-toe/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/wael/Desktop/tic-tac-toe/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/wael/Desktop/tic-tac-toe/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/wael/Desktop/tic-tac-toe/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/wael/Desktop/tic-tac-toe/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/wael/Desktop/tic-tac-toe/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/wael/Desktop/tic-tac-toe/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/wael/Desktop/tic-tac-toe/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/wael/Desktop/tic-tac-toe/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/wael/Desktop/tic-tac-toe/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tic_tac_toe">
+				<Option output="/home/wael/Desktop/tic-tac-toe/cmake-build-debug/tic_tac_toe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/wael/Desktop/tic-tac-toe/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/wael/Desktop/tic-tac-toe/cmake-build-debug/Makefile&quot;  VERBOSE=1 tic_tac_toe"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/wael/Desktop/tic-tac-toe/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/wael/Desktop/tic-tac-toe/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/wael/Desktop/tic-tac-toe/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tic_tac_toe/fast">
+				<Option output="/home/wael/Desktop/tic-tac-toe/cmake-build-debug/tic_tac_toe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/wael/Desktop/tic-tac-toe/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/wael/Desktop/tic-tac-toe/cmake-build-debug/Makefile&quot;  VERBOSE=1 tic_tac_toe/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/wael/Desktop/tic-tac-toe/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/wael/Desktop/tic-tac-toe/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/wael/Desktop/tic-tac-toe/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/wael/Desktop/tic-tac-toe/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/wael/Desktop/tic-tac-toe/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/wael/Desktop/tic-tac-toe/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/wael/Desktop/tic-tac-toe/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/wael/Desktop/tic-tac-toe/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/wael/Desktop/tic-tac-toe/EssentialIncludes.h">
+			<Option target="tic_tac_toe"/>
+		</Unit>
+		<Unit filename="/home/wael/Desktop/tic-tac-toe/Managers/AssetsManager.cpp">
+			<Option target="tic_tac_toe"/>
+		</Unit>
+		<Unit filename="/home/wael/Desktop/tic-tac-toe/Managers/AssetsManager.h">
+			<Option target="tic_tac_toe"/>
+		</Unit>
+		<Unit filename="/home/wael/Desktop/tic-tac-toe/Managers/DEFINITIONS.h">
+			<Option target="tic_tac_toe"/>
+		</Unit>
+		<Unit filename="/home/wael/Desktop/tic-tac-toe/Managers/InputHandler.cpp">
+			<Option target="tic_tac_toe"/>
+		</Unit>
+		<Unit filename="/home/wael/Desktop/tic-tac-toe/Managers/InputHandler.h">
+			<Option target="tic_tac_toe"/>
+		</Unit>
+		<Unit filename="/home/wael/Desktop/tic-tac-toe/Managers/Menu.cpp">
+			<Option target="tic_tac_toe"/>
+		</Unit>
+		<Unit filename="/home/wael/Desktop/tic-tac-toe/Managers/Menu.h">
+			<Option target="tic_tac_toe"/>
+		</Unit>
+		<Unit filename="/home/wael/Desktop/tic-tac-toe/States/ArkanoidState.cpp">
+			<Option target="tic_tac_toe"/>
+		</Unit>
+		<Unit filename="/home/wael/Desktop/tic-tac-toe/States/ArkanoidState.h">
+			<Option target="tic_tac_toe"/>
+		</Unit>
+		<Unit filename="/home/wael/Desktop/tic-tac-toe/States/MenuState.cpp">
+			<Option target="tic_tac_toe"/>
+		</Unit>
+		<Unit filename="/home/wael/Desktop/tic-tac-toe/States/MenuState.h">
+			<Option target="tic_tac_toe"/>
+		</Unit>
+		<Unit filename="/home/wael/Desktop/tic-tac-toe/States/MinesweeperState.cpp">
+			<Option target="tic_tac_toe"/>
+		</Unit>
+		<Unit filename="/home/wael/Desktop/tic-tac-toe/States/MinesweeperState.h">
+			<Option target="tic_tac_toe"/>
+		</Unit>
+		<Unit filename="/home/wael/Desktop/tic-tac-toe/States/OfflineState.cpp">
+			<Option target="tic_tac_toe"/>
+		</Unit>
+		<Unit filename="/home/wael/Desktop/tic-tac-toe/States/OfflineState.h">
+			<Option target="tic_tac_toe"/>
+		</Unit>
+		<Unit filename="/home/wael/Desktop/tic-tac-toe/States/OnlineState.cpp">
+			<Option target="tic_tac_toe"/>
+		</Unit>
+		<Unit filename="/home/wael/Desktop/tic-tac-toe/States/OnlineState.h">
+			<Option target="tic_tac_toe"/>
+		</Unit>
+		<Unit filename="/home/wael/Desktop/tic-tac-toe/States/RacingState.cpp">
+			<Option target="tic_tac_toe"/>
+		</Unit>
+		<Unit filename="/home/wael/Desktop/tic-tac-toe/States/RacingState.h">
+			<Option target="tic_tac_toe"/>
+		</Unit>
+		<Unit filename="/home/wael/Desktop/tic-tac-toe/States/SettingsState.cpp">
+			<Option target="tic_tac_toe"/>
+		</Unit>
+		<Unit filename="/home/wael/Desktop/tic-tac-toe/States/SettingsState.h">
+			<Option target="tic_tac_toe"/>
+		</Unit>
+		<Unit filename="/home/wael/Desktop/tic-tac-toe/States/SnakeState.cpp">
+			<Option target="tic_tac_toe"/>
+		</Unit>
+		<Unit filename="/home/wael/Desktop/tic-tac-toe/States/SnakeState.h">
+			<Option target="tic_tac_toe"/>
+		</Unit>
+		<Unit filename="/home/wael/Desktop/tic-tac-toe/States/State.cpp">
+			<Option target="tic_tac_toe"/>
+		</Unit>
+		<Unit filename="/home/wael/Desktop/tic-tac-toe/States/State.h">
+			<Option target="tic_tac_toe"/>
+		</Unit>
+		<Unit filename="/home/wael/Desktop/tic-tac-toe/main.cpp">
+			<Option target="tic_tac_toe"/>
+		</Unit>
+		<Unit filename="/home/wael/Desktop/tic-tac-toe/model/Egg.cpp">
+			<Option target="tic_tac_toe"/>
+		</Unit>
+		<Unit filename="/home/wael/Desktop/tic-tac-toe/model/Egg.h">
+			<Option target="tic_tac_toe"/>
+		</Unit>
+		<Unit filename="/home/wael/Desktop/tic-tac-toe/model/Snake.cpp">
+			<Option target="tic_tac_toe"/>
+		</Unit>
+		<Unit filename="/home/wael/Desktop/tic-tac-toe/model/Snake.h">
+			<Option target="tic_tac_toe"/>
+		</Unit>
+		<Unit filename="/home/wael/Desktop/tic-tac-toe/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/wael/Desktop/tic-tac-toe/cmake_modules/FindSFML.cmake">
+			<Option virtualFolder="CMake Files\cmake_modules\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

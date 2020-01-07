@@ -1,0 +1,3 @@
+/home/wael/Desktop/tic-tac-toe/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/wael/Desktop/tic-tac-toe/cmake-build-debug/CMakeFiles/tic_tac_toe.dir
+/home/wael/Desktop/tic-tac-toe/cmake-build-debug/CMakeFiles/edit_cache.dir
