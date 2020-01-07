@@ -2,9 +2,9 @@
 
 #include "../EssentialIncludes.h"
 #include "State.h"
+#include "../models/Snake.h"
+#include "../models/Egg.h"
 #include <queue>
-#include "../model/Snake.h"
-#include "../model/Egg.h"
 
 namespace GameEngine {
 
