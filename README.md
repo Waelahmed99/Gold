@@ -22,4 +22,6 @@ Car racing
 > Note that project content is changable, new games may be added by time
 
 ## Credits
-> Soon..
+**Fonts**  
+- [Something strange](https://github.com/Waelahmed99/Gold/blob/master/Resources/fonts/SomethingStrange-vjYD.ttf) from [Fontspace](https://www.fontspace.com/jonathan-s-harris/something-strange)
+- [Dancing Script](https://github.com/Waelahmed99/Gold/blob/master/Resources/fonts/SomethingStrange-vjYD.ttf) from [Fontsquirrel](https://www.fontsquirrel.com/fonts/dancing-script-ot)
