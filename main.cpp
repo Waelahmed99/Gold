@@ -45,6 +45,7 @@ void initialize_previous(int pos) {
             break;
         case 4:
             screens[pos] = new SnakeState;
+            break;
         case 5:
             screens[pos] = new MinesweeperState;
             break;

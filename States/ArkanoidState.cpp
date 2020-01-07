@@ -1,17 +1,12 @@
 #include "ArkanoidState.h"
 
 namespace GameEngine {
-    void ArkanoidState::draw() {
-        _window->clear();
-
-        // Draw here.
-
-        _window->display();
+    void ArkanoidState::init() {
+        _window->setTitle(ARKANOID_NAME);
     }
 
     int ArkanoidState::Run(RenderWindow &window) {
         _window = &window;
-        _window->setTitle(ARKANOID_NAME);
 
         while (_window->isOpen()) {
             Event event;
@@ -23,5 +18,13 @@ namespace GameEngine {
                 draw();
             }
         }
+    }
+
+    void ArkanoidState::draw() {
+        _window->clear();
+
+        // Draw here.
+
+        _window->display();
     }
 }
