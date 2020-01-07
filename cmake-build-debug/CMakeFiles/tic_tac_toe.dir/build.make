@@ -83,22 +83,9 @@ CMakeFiles/tic_tac_toe.dir/Managers/InputHandler.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tic_tac_toe.dir/Managers/InputHandler.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/wael/Desktop/tic-tac-toe/Managers/InputHandler.cpp -o CMakeFiles/tic_tac_toe.dir/Managers/InputHandler.cpp.s
 
-CMakeFiles/tic_tac_toe.dir/Managers/AssetsManager.cpp.o: CMakeFiles/tic_tac_toe.dir/flags.make
-CMakeFiles/tic_tac_toe.dir/Managers/AssetsManager.cpp.o: ../Managers/AssetsManager.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wael/Desktop/tic-tac-toe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/tic_tac_toe.dir/Managers/AssetsManager.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tic_tac_toe.dir/Managers/AssetsManager.cpp.o -c /home/wael/Desktop/tic-tac-toe/Managers/AssetsManager.cpp
-
-CMakeFiles/tic_tac_toe.dir/Managers/AssetsManager.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tic_tac_toe.dir/Managers/AssetsManager.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/wael/Desktop/tic-tac-toe/Managers/AssetsManager.cpp > CMakeFiles/tic_tac_toe.dir/Managers/AssetsManager.cpp.i
-
-CMakeFiles/tic_tac_toe.dir/Managers/AssetsManager.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tic_tac_toe.dir/Managers/AssetsManager.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/wael/Desktop/tic-tac-toe/Managers/AssetsManager.cpp -o CMakeFiles/tic_tac_toe.dir/Managers/AssetsManager.cpp.s
-
 CMakeFiles/tic_tac_toe.dir/Managers/Menu.cpp.o: CMakeFiles/tic_tac_toe.dir/flags.make
 CMakeFiles/tic_tac_toe.dir/Managers/Menu.cpp.o: ../Managers/Menu.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wael/Desktop/tic-tac-toe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/tic_tac_toe.dir/Managers/Menu.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wael/Desktop/tic-tac-toe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/tic_tac_toe.dir/Managers/Menu.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tic_tac_toe.dir/Managers/Menu.cpp.o -c /home/wael/Desktop/tic-tac-toe/Managers/Menu.cpp
 
 CMakeFiles/tic_tac_toe.dir/Managers/Menu.cpp.i: cmake_force
@@ -111,7 +98,7 @@ CMakeFiles/tic_tac_toe.dir/Managers/Menu.cpp.s: cmake_force
 
 CMakeFiles/tic_tac_toe.dir/States/MenuState.cpp.o: CMakeFiles/tic_tac_toe.dir/flags.make
 CMakeFiles/tic_tac_toe.dir/States/MenuState.cpp.o: ../States/MenuState.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wael/Desktop/tic-tac-toe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/tic_tac_toe.dir/States/MenuState.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wael/Desktop/tic-tac-toe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/tic_tac_toe.dir/States/MenuState.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tic_tac_toe.dir/States/MenuState.cpp.o -c /home/wael/Desktop/tic-tac-toe/States/MenuState.cpp
 
 CMakeFiles/tic_tac_toe.dir/States/MenuState.cpp.i: cmake_force
@@ -124,7 +111,7 @@ CMakeFiles/tic_tac_toe.dir/States/MenuState.cpp.s: cmake_force
 
 CMakeFiles/tic_tac_toe.dir/States/OfflineState.cpp.o: CMakeFiles/tic_tac_toe.dir/flags.make
 CMakeFiles/tic_tac_toe.dir/States/OfflineState.cpp.o: ../States/OfflineState.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wael/Desktop/tic-tac-toe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/tic_tac_toe.dir/States/OfflineState.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wael/Desktop/tic-tac-toe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/tic_tac_toe.dir/States/OfflineState.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tic_tac_toe.dir/States/OfflineState.cpp.o -c /home/wael/Desktop/tic-tac-toe/States/OfflineState.cpp
 
 CMakeFiles/tic_tac_toe.dir/States/OfflineState.cpp.i: cmake_force
@@ -137,7 +124,7 @@ CMakeFiles/tic_tac_toe.dir/States/OfflineState.cpp.s: cmake_force
 
 CMakeFiles/tic_tac_toe.dir/States/State.cpp.o: CMakeFiles/tic_tac_toe.dir/flags.make
 CMakeFiles/tic_tac_toe.dir/States/State.cpp.o: ../States/State.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wael/Desktop/tic-tac-toe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/tic_tac_toe.dir/States/State.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wael/Desktop/tic-tac-toe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/tic_tac_toe.dir/States/State.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tic_tac_toe.dir/States/State.cpp.o -c /home/wael/Desktop/tic-tac-toe/States/State.cpp
 
 CMakeFiles/tic_tac_toe.dir/States/State.cpp.i: cmake_force
@@ -150,7 +137,7 @@ CMakeFiles/tic_tac_toe.dir/States/State.cpp.s: cmake_force
 
 CMakeFiles/tic_tac_toe.dir/States/SnakeState.cpp.o: CMakeFiles/tic_tac_toe.dir/flags.make
 CMakeFiles/tic_tac_toe.dir/States/SnakeState.cpp.o: ../States/SnakeState.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wael/Desktop/tic-tac-toe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/tic_tac_toe.dir/States/SnakeState.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wael/Desktop/tic-tac-toe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/tic_tac_toe.dir/States/SnakeState.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tic_tac_toe.dir/States/SnakeState.cpp.o -c /home/wael/Desktop/tic-tac-toe/States/SnakeState.cpp
 
 CMakeFiles/tic_tac_toe.dir/States/SnakeState.cpp.i: cmake_force
@@ -163,7 +150,7 @@ CMakeFiles/tic_tac_toe.dir/States/SnakeState.cpp.s: cmake_force
 
 CMakeFiles/tic_tac_toe.dir/States/OnlineState.cpp.o: CMakeFiles/tic_tac_toe.dir/flags.make
 CMakeFiles/tic_tac_toe.dir/States/OnlineState.cpp.o: ../States/OnlineState.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wael/Desktop/tic-tac-toe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/tic_tac_toe.dir/States/OnlineState.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wael/Desktop/tic-tac-toe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/tic_tac_toe.dir/States/OnlineState.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tic_tac_toe.dir/States/OnlineState.cpp.o -c /home/wael/Desktop/tic-tac-toe/States/OnlineState.cpp
 
 CMakeFiles/tic_tac_toe.dir/States/OnlineState.cpp.i: cmake_force
@@ -176,7 +163,7 @@ CMakeFiles/tic_tac_toe.dir/States/OnlineState.cpp.s: cmake_force
 
 CMakeFiles/tic_tac_toe.dir/States/SettingsState.cpp.o: CMakeFiles/tic_tac_toe.dir/flags.make
 CMakeFiles/tic_tac_toe.dir/States/SettingsState.cpp.o: ../States/SettingsState.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wael/Desktop/tic-tac-toe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/tic_tac_toe.dir/States/SettingsState.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wael/Desktop/tic-tac-toe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/tic_tac_toe.dir/States/SettingsState.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tic_tac_toe.dir/States/SettingsState.cpp.o -c /home/wael/Desktop/tic-tac-toe/States/SettingsState.cpp
 
 CMakeFiles/tic_tac_toe.dir/States/SettingsState.cpp.i: cmake_force
@@ -189,7 +176,7 @@ CMakeFiles/tic_tac_toe.dir/States/SettingsState.cpp.s: cmake_force
 
 CMakeFiles/tic_tac_toe.dir/States/MinesweeperState.cpp.o: CMakeFiles/tic_tac_toe.dir/flags.make
 CMakeFiles/tic_tac_toe.dir/States/MinesweeperState.cpp.o: ../States/MinesweeperState.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wael/Desktop/tic-tac-toe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/tic_tac_toe.dir/States/MinesweeperState.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wael/Desktop/tic-tac-toe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/tic_tac_toe.dir/States/MinesweeperState.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tic_tac_toe.dir/States/MinesweeperState.cpp.o -c /home/wael/Desktop/tic-tac-toe/States/MinesweeperState.cpp
 
 CMakeFiles/tic_tac_toe.dir/States/MinesweeperState.cpp.i: cmake_force
@@ -202,7 +189,7 @@ CMakeFiles/tic_tac_toe.dir/States/MinesweeperState.cpp.s: cmake_force
 
 CMakeFiles/tic_tac_toe.dir/States/ArkanoidState.cpp.o: CMakeFiles/tic_tac_toe.dir/flags.make
 CMakeFiles/tic_tac_toe.dir/States/ArkanoidState.cpp.o: ../States/ArkanoidState.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wael/Desktop/tic-tac-toe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/tic_tac_toe.dir/States/ArkanoidState.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wael/Desktop/tic-tac-toe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/tic_tac_toe.dir/States/ArkanoidState.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tic_tac_toe.dir/States/ArkanoidState.cpp.o -c /home/wael/Desktop/tic-tac-toe/States/ArkanoidState.cpp
 
 CMakeFiles/tic_tac_toe.dir/States/ArkanoidState.cpp.i: cmake_force
@@ -215,7 +202,7 @@ CMakeFiles/tic_tac_toe.dir/States/ArkanoidState.cpp.s: cmake_force
 
 CMakeFiles/tic_tac_toe.dir/States/RacingState.cpp.o: CMakeFiles/tic_tac_toe.dir/flags.make
 CMakeFiles/tic_tac_toe.dir/States/RacingState.cpp.o: ../States/RacingState.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wael/Desktop/tic-tac-toe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/tic_tac_toe.dir/States/RacingState.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wael/Desktop/tic-tac-toe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/tic_tac_toe.dir/States/RacingState.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tic_tac_toe.dir/States/RacingState.cpp.o -c /home/wael/Desktop/tic-tac-toe/States/RacingState.cpp
 
 CMakeFiles/tic_tac_toe.dir/States/RacingState.cpp.i: cmake_force
@@ -228,7 +215,7 @@ CMakeFiles/tic_tac_toe.dir/States/RacingState.cpp.s: cmake_force
 
 CMakeFiles/tic_tac_toe.dir/model/Snake.cpp.o: CMakeFiles/tic_tac_toe.dir/flags.make
 CMakeFiles/tic_tac_toe.dir/model/Snake.cpp.o: ../model/Snake.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wael/Desktop/tic-tac-toe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/tic_tac_toe.dir/model/Snake.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wael/Desktop/tic-tac-toe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/tic_tac_toe.dir/model/Snake.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tic_tac_toe.dir/model/Snake.cpp.o -c /home/wael/Desktop/tic-tac-toe/model/Snake.cpp
 
 CMakeFiles/tic_tac_toe.dir/model/Snake.cpp.i: cmake_force
@@ -241,7 +228,7 @@ CMakeFiles/tic_tac_toe.dir/model/Snake.cpp.s: cmake_force
 
 CMakeFiles/tic_tac_toe.dir/model/Egg.cpp.o: CMakeFiles/tic_tac_toe.dir/flags.make
 CMakeFiles/tic_tac_toe.dir/model/Egg.cpp.o: ../model/Egg.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wael/Desktop/tic-tac-toe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/tic_tac_toe.dir/model/Egg.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wael/Desktop/tic-tac-toe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/tic_tac_toe.dir/model/Egg.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tic_tac_toe.dir/model/Egg.cpp.o -c /home/wael/Desktop/tic-tac-toe/model/Egg.cpp
 
 CMakeFiles/tic_tac_toe.dir/model/Egg.cpp.i: cmake_force
@@ -256,7 +243,6 @@ CMakeFiles/tic_tac_toe.dir/model/Egg.cpp.s: cmake_force
 tic_tac_toe_OBJECTS = \
 "CMakeFiles/tic_tac_toe.dir/main.cpp.o" \
 "CMakeFiles/tic_tac_toe.dir/Managers/InputHandler.cpp.o" \
-"CMakeFiles/tic_tac_toe.dir/Managers/AssetsManager.cpp.o" \
 "CMakeFiles/tic_tac_toe.dir/Managers/Menu.cpp.o" \
 "CMakeFiles/tic_tac_toe.dir/States/MenuState.cpp.o" \
 "CMakeFiles/tic_tac_toe.dir/States/OfflineState.cpp.o" \
@@ -275,7 +261,6 @@ tic_tac_toe_EXTERNAL_OBJECTS =
 
 tic_tac_toe: CMakeFiles/tic_tac_toe.dir/main.cpp.o
 tic_tac_toe: CMakeFiles/tic_tac_toe.dir/Managers/InputHandler.cpp.o
-tic_tac_toe: CMakeFiles/tic_tac_toe.dir/Managers/AssetsManager.cpp.o
 tic_tac_toe: CMakeFiles/tic_tac_toe.dir/Managers/Menu.cpp.o
 tic_tac_toe: CMakeFiles/tic_tac_toe.dir/States/MenuState.cpp.o
 tic_tac_toe: CMakeFiles/tic_tac_toe.dir/States/OfflineState.cpp.o
@@ -295,7 +280,7 @@ tic_tac_toe: /usr/lib/x86_64-linux-gnu/libsfml-graphics.so
 tic_tac_toe: /usr/lib/x86_64-linux-gnu/libsfml-network.so
 tic_tac_toe: /usr/lib/x86_64-linux-gnu/libsfml-audio.so
 tic_tac_toe: CMakeFiles/tic_tac_toe.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/wael/Desktop/tic-tac-toe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Linking CXX executable tic_tac_toe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/wael/Desktop/tic-tac-toe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Linking CXX executable tic_tac_toe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/tic_tac_toe.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

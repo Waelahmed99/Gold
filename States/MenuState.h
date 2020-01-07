@@ -8,16 +8,15 @@
 namespace GameEngine {
     class MenuState : public State {
     public:
-        MenuState() = default;
+        int Run(RenderWindow&) override;
 
-        virtual int Run(RenderWindow&);
     private:
-        bool _isPaused{};
         RenderWindow* _window{};
         Menu _menu;
         Texture _backgroundTex;
         Sprite _backgroundSprite;
 
         void draw();
+        void init();
     };
 }

@@ -1,7 +1,3 @@
-//
-// Created by wael on 1/6/20.
-//
-
 #include <cstdlib>
 #include "Egg.h"
 

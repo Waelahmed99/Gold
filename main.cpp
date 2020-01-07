@@ -5,6 +5,30 @@ using namespace GameEngine;
 
 vector<State*> screens;
 
+void initialize_previous(int);
+void pushScreens(vector<State*>&);
+
+int main() {
+    RenderWindow window(VideoMode(SCREEN_WIDTH, SCREEN_HEIGHT), SCREEN_TITLE);
+    MenuState menu;
+
+    pushScreens(screens);
+
+    int screen = 0, previous = -1;
+    while (screen >= 0) {
+        initialize_previous(previous);
+        previous = screen;
+        screen = screens[screen]->Run(window);
+    }
+    return EXIT_SUCCESS;
+}
+
+/**
+ * This function resets specific screen
+ * Use it if you want to reset a state
+ * after leaving it
+ * @param pos refers to the previous screen's position.
+ */
 void initialize_previous(int pos) {
     switch (pos) {
         case 0:
@@ -31,6 +55,12 @@ void initialize_previous(int pos) {
     }
 }
 
+/**
+ * Here you push your screen with taking position into account
+ * Screen's position is used to navigate between screens.
+ * please see DEFINITIONS.h under Managers directory.
+ * @param vec refers to our main vector of state*
+ */
 void pushScreens(vector<State*> &vec) {
     vec.push_back(new MenuState);        // 0
     vec.push_back(new OfflineState);     // 1
@@ -40,19 +70,4 @@ void pushScreens(vector<State*> &vec) {
     vec.push_back(new MinesweeperState); // 5
     vec.push_back(new ArkanoidState);    // 6
     vec.push_back(new RacingState);      // 7
-}
-
-int main() {
-    RenderWindow window(VideoMode(SCREEN_WIDTH, SCREEN_HEIGHT), SCREEN_TITLE);
-    MenuState menu;
-
-    pushScreens(screens);
-
-    int screen = 0, previous = -1;
-    while (screen >= 0) {
-        initialize_previous(previous);
-        previous = screen;
-        screen = screens[screen]->Run(window);
-    }
-    return EXIT_SUCCESS;
 }

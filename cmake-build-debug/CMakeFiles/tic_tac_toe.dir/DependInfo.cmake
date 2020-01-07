@@ -4,7 +4,6 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/wael/Desktop/tic-tac-toe/Managers/AssetsManager.cpp" "/home/wael/Desktop/tic-tac-toe/cmake-build-debug/CMakeFiles/tic_tac_toe.dir/Managers/AssetsManager.cpp.o"
   "/home/wael/Desktop/tic-tac-toe/Managers/InputHandler.cpp" "/home/wael/Desktop/tic-tac-toe/cmake-build-debug/CMakeFiles/tic_tac_toe.dir/Managers/InputHandler.cpp.o"
   "/home/wael/Desktop/tic-tac-toe/Managers/Menu.cpp" "/home/wael/Desktop/tic-tac-toe/cmake-build-debug/CMakeFiles/tic_tac_toe.dir/Managers/Menu.cpp.o"
   "/home/wael/Desktop/tic-tac-toe/States/ArkanoidState.cpp" "/home/wael/Desktop/tic-tac-toe/cmake-build-debug/CMakeFiles/tic_tac_toe.dir/States/ArkanoidState.cpp.o"

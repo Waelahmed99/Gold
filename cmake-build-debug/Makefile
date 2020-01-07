@@ -123,33 +123,6 @@ tic_tac_toe/fast:
 	$(MAKE) -f CMakeFiles/tic_tac_toe.dir/build.make CMakeFiles/tic_tac_toe.dir/build
 .PHONY : tic_tac_toe/fast
 
-Managers/AssetsManager.o: Managers/AssetsManager.cpp.o
-
-.PHONY : Managers/AssetsManager.o
-
-# target to build an object file
-Managers/AssetsManager.cpp.o:
-	$(MAKE) -f CMakeFiles/tic_tac_toe.dir/build.make CMakeFiles/tic_tac_toe.dir/Managers/AssetsManager.cpp.o
-.PHONY : Managers/AssetsManager.cpp.o
-
-Managers/AssetsManager.i: Managers/AssetsManager.cpp.i
-
-.PHONY : Managers/AssetsManager.i
-
-# target to preprocess a source file
-Managers/AssetsManager.cpp.i:
-	$(MAKE) -f CMakeFiles/tic_tac_toe.dir/build.make CMakeFiles/tic_tac_toe.dir/Managers/AssetsManager.cpp.i
-.PHONY : Managers/AssetsManager.cpp.i
-
-Managers/AssetsManager.s: Managers/AssetsManager.cpp.s
-
-.PHONY : Managers/AssetsManager.s
-
-# target to generate assembly for a file
-Managers/AssetsManager.cpp.s:
-	$(MAKE) -f CMakeFiles/tic_tac_toe.dir/build.make CMakeFiles/tic_tac_toe.dir/Managers/AssetsManager.cpp.s
-.PHONY : Managers/AssetsManager.cpp.s
-
 Managers/InputHandler.o: Managers/InputHandler.cpp.o
 
 .PHONY : Managers/InputHandler.o
@@ -537,9 +510,6 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... tic_tac_toe"
 	@echo "... edit_cache"
-	@echo "... Managers/AssetsManager.o"
-	@echo "... Managers/AssetsManager.i"
-	@echo "... Managers/AssetsManager.s"
 	@echo "... Managers/InputHandler.o"
 	@echo "... Managers/InputHandler.i"
 	@echo "... Managers/InputHandler.s"

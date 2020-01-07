@@ -1,5 +1,4 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/tic_tac_toe.dir/Managers/AssetsManager.cpp.o"
   "CMakeFiles/tic_tac_toe.dir/Managers/InputHandler.cpp.o"
   "CMakeFiles/tic_tac_toe.dir/Managers/Menu.cpp.o"
   "CMakeFiles/tic_tac_toe.dir/States/ArkanoidState.cpp.o"

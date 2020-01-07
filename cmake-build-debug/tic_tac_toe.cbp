@@ -87,12 +87,6 @@
 		<Unit filename="/home/wael/Desktop/tic-tac-toe/EssentialIncludes.h">
 			<Option target="tic_tac_toe"/>
 		</Unit>
-		<Unit filename="/home/wael/Desktop/tic-tac-toe/Managers/AssetsManager.cpp">
-			<Option target="tic_tac_toe"/>
-		</Unit>
-		<Unit filename="/home/wael/Desktop/tic-tac-toe/Managers/AssetsManager.h">
-			<Option target="tic_tac_toe"/>
-		</Unit>
 		<Unit filename="/home/wael/Desktop/tic-tac-toe/Managers/DEFINITIONS.h">
 			<Option target="tic_tac_toe"/>
 		</Unit>

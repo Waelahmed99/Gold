@@ -1,26 +1,32 @@
 #include "MenuState.h"
 
 namespace GameEngine {
-    int MenuState::Run(RenderWindow &window) {
-        _window = &window;
+    void MenuState::init() {
         _window->setTitle(MENU_TITLE);
         Vector2u size; size.x = SCREEN_WIDTH, size.y = SCREEN_HEIGHT;
         _window->setSize(size);
 
-        Font font;
-        font.loadFromFile("../Resources/fonts/DancingScript-Regular.otf");
-        _menu.setupMenu(font, 30, Color::Red);
-        _menu.setWindow(*_window);
+        Font font; font.loadFromFile("../Resources/fonts/DancingScript-Regular.otf");
 
+        // Names of menu items.
         string names[] = {
                 OFFLINE_NAME,
                 ONLINE_NAME,
                 SETTINGS_NAME,
                 EXIT_NAME
         };
+
+        // Setup menu.
+        _menu.setupMenu(font, 30, Color::Red);
+        _menu.setWindow(*_window);
         for (const auto &name : names) {
             _menu.addItem(name);
         }
+    }
+
+    int MenuState::Run(RenderWindow &window) {
+        _window = &window;
+        init();
 
         _backgroundTex.loadFromFile(MENU_BACKGROUND);
         _backgroundSprite.setTexture(_backgroundTex);
