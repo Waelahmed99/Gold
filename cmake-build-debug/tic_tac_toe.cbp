@@ -108,6 +108,9 @@
 		<Unit filename="/home/wael/Desktop/tic-tac-toe/Managers/Menu.h">
 			<Option target="tic_tac_toe"/>
 		</Unit>
+		<Unit filename="/home/wael/Desktop/tic-tac-toe/States.h">
+			<Option target="tic_tac_toe"/>
+		</Unit>
 		<Unit filename="/home/wael/Desktop/tic-tac-toe/States/ArkanoidState.cpp">
 			<Option target="tic_tac_toe"/>
 		</Unit>

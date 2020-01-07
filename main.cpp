@@ -1,13 +1,5 @@
 #include "EssentialIncludes.h"
-#include "Managers/Menu.h"
-#include "States/MenuState.h"
-#include "States/OfflineState.h"
-#include "States/OnlineState.h"
-#include "States/SettingsState.h"
-#include "States/SnakeState.h"
-#include "States/MinesweeperState.h"
-#include "States/ArkanoidState.h"
-#include "States/RacingState.h"
+#include "States.h"
 
 using namespace GameEngine;
 
