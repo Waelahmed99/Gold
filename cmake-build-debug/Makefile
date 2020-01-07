@@ -447,59 +447,59 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles/tic_tac_toe.dir/build.make CMakeFiles/tic_tac_toe.dir/main.cpp.s
 .PHONY : main.cpp.s
 
-model/Egg.o: model/Egg.cpp.o
+models/Egg.o: models/Egg.cpp.o
 
-.PHONY : model/Egg.o
-
-# target to build an object file
-model/Egg.cpp.o:
-	$(MAKE) -f CMakeFiles/tic_tac_toe.dir/build.make CMakeFiles/tic_tac_toe.dir/model/Egg.cpp.o
-.PHONY : model/Egg.cpp.o
-
-model/Egg.i: model/Egg.cpp.i
-
-.PHONY : model/Egg.i
-
-# target to preprocess a source file
-model/Egg.cpp.i:
-	$(MAKE) -f CMakeFiles/tic_tac_toe.dir/build.make CMakeFiles/tic_tac_toe.dir/model/Egg.cpp.i
-.PHONY : model/Egg.cpp.i
-
-model/Egg.s: model/Egg.cpp.s
-
-.PHONY : model/Egg.s
-
-# target to generate assembly for a file
-model/Egg.cpp.s:
-	$(MAKE) -f CMakeFiles/tic_tac_toe.dir/build.make CMakeFiles/tic_tac_toe.dir/model/Egg.cpp.s
-.PHONY : model/Egg.cpp.s
-
-model/Snake.o: model/Snake.cpp.o
-
-.PHONY : model/Snake.o
+.PHONY : models/Egg.o
 
 # target to build an object file
-model/Snake.cpp.o:
-	$(MAKE) -f CMakeFiles/tic_tac_toe.dir/build.make CMakeFiles/tic_tac_toe.dir/model/Snake.cpp.o
-.PHONY : model/Snake.cpp.o
+models/Egg.cpp.o:
+	$(MAKE) -f CMakeFiles/tic_tac_toe.dir/build.make CMakeFiles/tic_tac_toe.dir/models/Egg.cpp.o
+.PHONY : models/Egg.cpp.o
 
-model/Snake.i: model/Snake.cpp.i
+models/Egg.i: models/Egg.cpp.i
 
-.PHONY : model/Snake.i
+.PHONY : models/Egg.i
 
 # target to preprocess a source file
-model/Snake.cpp.i:
-	$(MAKE) -f CMakeFiles/tic_tac_toe.dir/build.make CMakeFiles/tic_tac_toe.dir/model/Snake.cpp.i
-.PHONY : model/Snake.cpp.i
+models/Egg.cpp.i:
+	$(MAKE) -f CMakeFiles/tic_tac_toe.dir/build.make CMakeFiles/tic_tac_toe.dir/models/Egg.cpp.i
+.PHONY : models/Egg.cpp.i
 
-model/Snake.s: model/Snake.cpp.s
+models/Egg.s: models/Egg.cpp.s
 
-.PHONY : model/Snake.s
+.PHONY : models/Egg.s
 
 # target to generate assembly for a file
-model/Snake.cpp.s:
-	$(MAKE) -f CMakeFiles/tic_tac_toe.dir/build.make CMakeFiles/tic_tac_toe.dir/model/Snake.cpp.s
-.PHONY : model/Snake.cpp.s
+models/Egg.cpp.s:
+	$(MAKE) -f CMakeFiles/tic_tac_toe.dir/build.make CMakeFiles/tic_tac_toe.dir/models/Egg.cpp.s
+.PHONY : models/Egg.cpp.s
+
+models/Snake.o: models/Snake.cpp.o
+
+.PHONY : models/Snake.o
+
+# target to build an object file
+models/Snake.cpp.o:
+	$(MAKE) -f CMakeFiles/tic_tac_toe.dir/build.make CMakeFiles/tic_tac_toe.dir/models/Snake.cpp.o
+.PHONY : models/Snake.cpp.o
+
+models/Snake.i: models/Snake.cpp.i
+
+.PHONY : models/Snake.i
+
+# target to preprocess a source file
+models/Snake.cpp.i:
+	$(MAKE) -f CMakeFiles/tic_tac_toe.dir/build.make CMakeFiles/tic_tac_toe.dir/models/Snake.cpp.i
+.PHONY : models/Snake.cpp.i
+
+models/Snake.s: models/Snake.cpp.s
+
+.PHONY : models/Snake.s
+
+# target to generate assembly for a file
+models/Snake.cpp.s:
+	$(MAKE) -f CMakeFiles/tic_tac_toe.dir/build.make CMakeFiles/tic_tac_toe.dir/models/Snake.cpp.s
+.PHONY : models/Snake.cpp.s
 
 # Help Target
 help:
@@ -546,12 +546,12 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
-	@echo "... model/Egg.o"
-	@echo "... model/Egg.i"
-	@echo "... model/Egg.s"
-	@echo "... model/Snake.o"
-	@echo "... model/Snake.i"
-	@echo "... model/Snake.s"
+	@echo "... models/Egg.o"
+	@echo "... models/Egg.i"
+	@echo "... models/Egg.s"
+	@echo "... models/Snake.o"
+	@echo "... models/Snake.i"
+	@echo "... models/Snake.s"
 .PHONY : help
 
 

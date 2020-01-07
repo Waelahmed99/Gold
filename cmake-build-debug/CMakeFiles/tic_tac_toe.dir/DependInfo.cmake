@@ -16,8 +16,8 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/wael/Desktop/tic-tac-toe/States/SnakeState.cpp" "/home/wael/Desktop/tic-tac-toe/cmake-build-debug/CMakeFiles/tic_tac_toe.dir/States/SnakeState.cpp.o"
   "/home/wael/Desktop/tic-tac-toe/States/State.cpp" "/home/wael/Desktop/tic-tac-toe/cmake-build-debug/CMakeFiles/tic_tac_toe.dir/States/State.cpp.o"
   "/home/wael/Desktop/tic-tac-toe/main.cpp" "/home/wael/Desktop/tic-tac-toe/cmake-build-debug/CMakeFiles/tic_tac_toe.dir/main.cpp.o"
-  "/home/wael/Desktop/tic-tac-toe/model/Egg.cpp" "/home/wael/Desktop/tic-tac-toe/cmake-build-debug/CMakeFiles/tic_tac_toe.dir/model/Egg.cpp.o"
-  "/home/wael/Desktop/tic-tac-toe/model/Snake.cpp" "/home/wael/Desktop/tic-tac-toe/cmake-build-debug/CMakeFiles/tic_tac_toe.dir/model/Snake.cpp.o"
+  "/home/wael/Desktop/tic-tac-toe/models/Egg.cpp" "/home/wael/Desktop/tic-tac-toe/cmake-build-debug/CMakeFiles/tic_tac_toe.dir/models/Egg.cpp.o"
+  "/home/wael/Desktop/tic-tac-toe/models/Snake.cpp" "/home/wael/Desktop/tic-tac-toe/cmake-build-debug/CMakeFiles/tic_tac_toe.dir/models/Snake.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

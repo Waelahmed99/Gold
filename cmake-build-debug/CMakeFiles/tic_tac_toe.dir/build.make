@@ -213,31 +213,31 @@ CMakeFiles/tic_tac_toe.dir/States/RacingState.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tic_tac_toe.dir/States/RacingState.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/wael/Desktop/tic-tac-toe/States/RacingState.cpp -o CMakeFiles/tic_tac_toe.dir/States/RacingState.cpp.s
 
-CMakeFiles/tic_tac_toe.dir/model/Snake.cpp.o: CMakeFiles/tic_tac_toe.dir/flags.make
-CMakeFiles/tic_tac_toe.dir/model/Snake.cpp.o: ../model/Snake.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wael/Desktop/tic-tac-toe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/tic_tac_toe.dir/model/Snake.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tic_tac_toe.dir/model/Snake.cpp.o -c /home/wael/Desktop/tic-tac-toe/model/Snake.cpp
+CMakeFiles/tic_tac_toe.dir/models/Snake.cpp.o: CMakeFiles/tic_tac_toe.dir/flags.make
+CMakeFiles/tic_tac_toe.dir/models/Snake.cpp.o: ../models/Snake.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wael/Desktop/tic-tac-toe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/tic_tac_toe.dir/models/Snake.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tic_tac_toe.dir/models/Snake.cpp.o -c /home/wael/Desktop/tic-tac-toe/models/Snake.cpp
 
-CMakeFiles/tic_tac_toe.dir/model/Snake.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tic_tac_toe.dir/model/Snake.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/wael/Desktop/tic-tac-toe/model/Snake.cpp > CMakeFiles/tic_tac_toe.dir/model/Snake.cpp.i
+CMakeFiles/tic_tac_toe.dir/models/Snake.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tic_tac_toe.dir/models/Snake.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/wael/Desktop/tic-tac-toe/models/Snake.cpp > CMakeFiles/tic_tac_toe.dir/models/Snake.cpp.i
 
-CMakeFiles/tic_tac_toe.dir/model/Snake.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tic_tac_toe.dir/model/Snake.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/wael/Desktop/tic-tac-toe/model/Snake.cpp -o CMakeFiles/tic_tac_toe.dir/model/Snake.cpp.s
+CMakeFiles/tic_tac_toe.dir/models/Snake.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tic_tac_toe.dir/models/Snake.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/wael/Desktop/tic-tac-toe/models/Snake.cpp -o CMakeFiles/tic_tac_toe.dir/models/Snake.cpp.s
 
-CMakeFiles/tic_tac_toe.dir/model/Egg.cpp.o: CMakeFiles/tic_tac_toe.dir/flags.make
-CMakeFiles/tic_tac_toe.dir/model/Egg.cpp.o: ../model/Egg.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wael/Desktop/tic-tac-toe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/tic_tac_toe.dir/model/Egg.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tic_tac_toe.dir/model/Egg.cpp.o -c /home/wael/Desktop/tic-tac-toe/model/Egg.cpp
+CMakeFiles/tic_tac_toe.dir/models/Egg.cpp.o: CMakeFiles/tic_tac_toe.dir/flags.make
+CMakeFiles/tic_tac_toe.dir/models/Egg.cpp.o: ../models/Egg.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wael/Desktop/tic-tac-toe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/tic_tac_toe.dir/models/Egg.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tic_tac_toe.dir/models/Egg.cpp.o -c /home/wael/Desktop/tic-tac-toe/models/Egg.cpp
 
-CMakeFiles/tic_tac_toe.dir/model/Egg.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tic_tac_toe.dir/model/Egg.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/wael/Desktop/tic-tac-toe/model/Egg.cpp > CMakeFiles/tic_tac_toe.dir/model/Egg.cpp.i
+CMakeFiles/tic_tac_toe.dir/models/Egg.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tic_tac_toe.dir/models/Egg.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/wael/Desktop/tic-tac-toe/models/Egg.cpp > CMakeFiles/tic_tac_toe.dir/models/Egg.cpp.i
 
-CMakeFiles/tic_tac_toe.dir/model/Egg.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tic_tac_toe.dir/model/Egg.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/wael/Desktop/tic-tac-toe/model/Egg.cpp -o CMakeFiles/tic_tac_toe.dir/model/Egg.cpp.s
+CMakeFiles/tic_tac_toe.dir/models/Egg.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tic_tac_toe.dir/models/Egg.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/wael/Desktop/tic-tac-toe/models/Egg.cpp -o CMakeFiles/tic_tac_toe.dir/models/Egg.cpp.s
 
 # Object files for target tic_tac_toe
 tic_tac_toe_OBJECTS = \
@@ -253,8 +253,8 @@ tic_tac_toe_OBJECTS = \
 "CMakeFiles/tic_tac_toe.dir/States/MinesweeperState.cpp.o" \
 "CMakeFiles/tic_tac_toe.dir/States/ArkanoidState.cpp.o" \
 "CMakeFiles/tic_tac_toe.dir/States/RacingState.cpp.o" \
-"CMakeFiles/tic_tac_toe.dir/model/Snake.cpp.o" \
-"CMakeFiles/tic_tac_toe.dir/model/Egg.cpp.o"
+"CMakeFiles/tic_tac_toe.dir/models/Snake.cpp.o" \
+"CMakeFiles/tic_tac_toe.dir/models/Egg.cpp.o"
 
 # External object files for target tic_tac_toe
 tic_tac_toe_EXTERNAL_OBJECTS =
@@ -271,8 +271,8 @@ tic_tac_toe: CMakeFiles/tic_tac_toe.dir/States/SettingsState.cpp.o
 tic_tac_toe: CMakeFiles/tic_tac_toe.dir/States/MinesweeperState.cpp.o
 tic_tac_toe: CMakeFiles/tic_tac_toe.dir/States/ArkanoidState.cpp.o
 tic_tac_toe: CMakeFiles/tic_tac_toe.dir/States/RacingState.cpp.o
-tic_tac_toe: CMakeFiles/tic_tac_toe.dir/model/Snake.cpp.o
-tic_tac_toe: CMakeFiles/tic_tac_toe.dir/model/Egg.cpp.o
+tic_tac_toe: CMakeFiles/tic_tac_toe.dir/models/Snake.cpp.o
+tic_tac_toe: CMakeFiles/tic_tac_toe.dir/models/Egg.cpp.o
 tic_tac_toe: CMakeFiles/tic_tac_toe.dir/build.make
 tic_tac_toe: /usr/lib/x86_64-linux-gnu/libsfml-system.so
 tic_tac_toe: /usr/lib/x86_64-linux-gnu/libsfml-window.so

@@ -11,8 +11,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/tic_tac_toe.dir/States/SnakeState.cpp.o"
   "CMakeFiles/tic_tac_toe.dir/States/State.cpp.o"
   "CMakeFiles/tic_tac_toe.dir/main.cpp.o"
-  "CMakeFiles/tic_tac_toe.dir/model/Egg.cpp.o"
-  "CMakeFiles/tic_tac_toe.dir/model/Snake.cpp.o"
+  "CMakeFiles/tic_tac_toe.dir/models/Egg.cpp.o"
+  "CMakeFiles/tic_tac_toe.dir/models/Snake.cpp.o"
   "tic_tac_toe"
   "tic_tac_toe.pdb"
 )

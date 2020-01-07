@@ -62,8 +62,8 @@ CMakeFiles/tic_tac_toe.dir/States/SnakeState.cpp.o: ../Managers/DEFINITIONS.h
 CMakeFiles/tic_tac_toe.dir/States/SnakeState.cpp.o: ../States/SnakeState.cpp
 CMakeFiles/tic_tac_toe.dir/States/SnakeState.cpp.o: ../States/SnakeState.h
 CMakeFiles/tic_tac_toe.dir/States/SnakeState.cpp.o: ../States/State.h
-CMakeFiles/tic_tac_toe.dir/States/SnakeState.cpp.o: ../model/Egg.h
-CMakeFiles/tic_tac_toe.dir/States/SnakeState.cpp.o: ../model/Snake.h
+CMakeFiles/tic_tac_toe.dir/States/SnakeState.cpp.o: ../models/Egg.h
+CMakeFiles/tic_tac_toe.dir/States/SnakeState.cpp.o: ../models/Snake.h
 
 CMakeFiles/tic_tac_toe.dir/States/State.cpp.o: ../EssentialIncludes.h
 CMakeFiles/tic_tac_toe.dir/States/State.cpp.o: ../Managers/DEFINITIONS.h
@@ -84,12 +84,12 @@ CMakeFiles/tic_tac_toe.dir/main.cpp.o: ../States/SettingsState.h
 CMakeFiles/tic_tac_toe.dir/main.cpp.o: ../States/SnakeState.h
 CMakeFiles/tic_tac_toe.dir/main.cpp.o: ../States/State.h
 CMakeFiles/tic_tac_toe.dir/main.cpp.o: ../main.cpp
-CMakeFiles/tic_tac_toe.dir/main.cpp.o: ../model/Egg.h
-CMakeFiles/tic_tac_toe.dir/main.cpp.o: ../model/Snake.h
+CMakeFiles/tic_tac_toe.dir/main.cpp.o: ../models/Egg.h
+CMakeFiles/tic_tac_toe.dir/main.cpp.o: ../models/Snake.h
 
-CMakeFiles/tic_tac_toe.dir/model/Egg.cpp.o: ../model/Egg.cpp
-CMakeFiles/tic_tac_toe.dir/model/Egg.cpp.o: ../model/Egg.h
+CMakeFiles/tic_tac_toe.dir/models/Egg.cpp.o: ../models/Egg.cpp
+CMakeFiles/tic_tac_toe.dir/models/Egg.cpp.o: ../models/Egg.h
 
-CMakeFiles/tic_tac_toe.dir/model/Snake.cpp.o: ../model/Snake.cpp
-CMakeFiles/tic_tac_toe.dir/model/Snake.cpp.o: ../model/Snake.h
+CMakeFiles/tic_tac_toe.dir/models/Snake.cpp.o: ../models/Snake.cpp
+CMakeFiles/tic_tac_toe.dir/models/Snake.cpp.o: ../models/Snake.h
 

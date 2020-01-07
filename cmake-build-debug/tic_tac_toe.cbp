@@ -162,16 +162,16 @@
 		<Unit filename="/home/wael/Desktop/tic-tac-toe/main.cpp">
 			<Option target="tic_tac_toe"/>
 		</Unit>
-		<Unit filename="/home/wael/Desktop/tic-tac-toe/model/Egg.cpp">
+		<Unit filename="/home/wael/Desktop/tic-tac-toe/models/Egg.cpp">
 			<Option target="tic_tac_toe"/>
 		</Unit>
-		<Unit filename="/home/wael/Desktop/tic-tac-toe/model/Egg.h">
+		<Unit filename="/home/wael/Desktop/tic-tac-toe/models/Egg.h">
 			<Option target="tic_tac_toe"/>
 		</Unit>
-		<Unit filename="/home/wael/Desktop/tic-tac-toe/model/Snake.cpp">
+		<Unit filename="/home/wael/Desktop/tic-tac-toe/models/Snake.cpp">
 			<Option target="tic_tac_toe"/>
 		</Unit>
-		<Unit filename="/home/wael/Desktop/tic-tac-toe/model/Snake.h">
+		<Unit filename="/home/wael/Desktop/tic-tac-toe/models/Snake.h">
 			<Option target="tic_tac_toe"/>
 		</Unit>
 		<Unit filename="/home/wael/Desktop/tic-tac-toe/CMakeLists.txt">
