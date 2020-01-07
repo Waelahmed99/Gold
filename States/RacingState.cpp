@@ -1,17 +1,12 @@
 #include "RacingState.h"
 
 namespace GameEngine {
-    void RacingState::draw() {
-        _window->clear();
-
-        // Draw here.
-
-        _window->display();
+    void RacingState::init() {
+        _window->setTitle(RACING_NAME);
     }
 
     int RacingState::Run(RenderWindow &window) {
         _window = &window;
-        _window->setTitle(RACING_NAME);
 
         while (_window->isOpen()) {
             Event event;
@@ -23,5 +18,13 @@ namespace GameEngine {
                 draw();
             }
         }
+    }
+
+    void RacingState::draw() {
+        _window->clear();
+
+        // Draw here.
+
+        _window->display();
     }
 }
