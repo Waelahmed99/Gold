@@ -20,26 +20,6 @@ Managers/DEFINITIONS.h
 ../EssentialIncludes.h
 /home/wael/Desktop/tic-tac-toe/EssentialIncludes.h
 
-/home/wael/Desktop/tic-tac-toe/States.h
-Managers/Menu.h
-/home/wael/Desktop/tic-tac-toe/Managers/Menu.h
-States/MenuState.h
-/home/wael/Desktop/tic-tac-toe/States/MenuState.h
-States/OfflineState.h
-/home/wael/Desktop/tic-tac-toe/States/OfflineState.h
-States/OnlineState.h
-/home/wael/Desktop/tic-tac-toe/States/OnlineState.h
-States/SettingsState.h
-/home/wael/Desktop/tic-tac-toe/States/SettingsState.h
-States/SnakeState.h
-/home/wael/Desktop/tic-tac-toe/States/SnakeState.h
-States/MinesweeperState.h
-/home/wael/Desktop/tic-tac-toe/States/MinesweeperState.h
-States/ArkanoidState.h
-/home/wael/Desktop/tic-tac-toe/States/ArkanoidState.h
-States/RacingState.h
-/home/wael/Desktop/tic-tac-toe/States/RacingState.h
-
 /home/wael/Desktop/tic-tac-toe/States/ArkanoidState.cpp
 ArkanoidState.h
 /home/wael/Desktop/tic-tac-toe/States/ArkanoidState.h
@@ -47,10 +27,6 @@ ArkanoidState.h
 /home/wael/Desktop/tic-tac-toe/States/ArkanoidState.h
 State.h
 /home/wael/Desktop/tic-tac-toe/States/State.h
-
-/home/wael/Desktop/tic-tac-toe/States/MenuState.cpp
-MenuState.h
-/home/wael/Desktop/tic-tac-toe/States/MenuState.h
 
 /home/wael/Desktop/tic-tac-toe/States/MenuState.h
 ../EssentialIncludes.h
@@ -106,39 +82,7 @@ SettingsState.h
 State.h
 /home/wael/Desktop/tic-tac-toe/States/State.h
 
-/home/wael/Desktop/tic-tac-toe/States/SnakeState.cpp
-SnakeState.h
-/home/wael/Desktop/tic-tac-toe/States/SnakeState.h
-sstream
--
-
-/home/wael/Desktop/tic-tac-toe/States/SnakeState.h
-../EssentialIncludes.h
-/home/wael/Desktop/tic-tac-toe/EssentialIncludes.h
-State.h
-/home/wael/Desktop/tic-tac-toe/States/State.h
-queue
--
-../model/Snake.h
-/home/wael/Desktop/tic-tac-toe/model/Snake.h
-../model/Egg.h
-/home/wael/Desktop/tic-tac-toe/model/Egg.h
-
-/home/wael/Desktop/tic-tac-toe/States/State.cpp
-State.h
-/home/wael/Desktop/tic-tac-toe/States/State.h
-
 /home/wael/Desktop/tic-tac-toe/States/State.h
 ../EssentialIncludes.h
 /home/wael/Desktop/tic-tac-toe/EssentialIncludes.h
-
-/home/wael/Desktop/tic-tac-toe/main.cpp
-EssentialIncludes.h
-/home/wael/Desktop/tic-tac-toe/EssentialIncludes.h
-States.h
-/home/wael/Desktop/tic-tac-toe/States.h
-
-/home/wael/Desktop/tic-tac-toe/model/Egg.h
-
-/home/wael/Desktop/tic-tac-toe/model/Snake.h
 

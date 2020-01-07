@@ -26,6 +26,7 @@ namespace GameEngine {
 
     int OfflineState::Run(RenderWindow &window) {
         _window = &window;
+        init();
 
         _backgroundTex.loadFromFile(OFFLINE_BACKGROUND);
         _background.setTexture(_backgroundTex);

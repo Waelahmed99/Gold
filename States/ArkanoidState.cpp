@@ -7,6 +7,7 @@ namespace GameEngine {
 
     int ArkanoidState::Run(RenderWindow &window) {
         _window = &window;
+        init();
 
         while (_window->isOpen()) {
             Event event;

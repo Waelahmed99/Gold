@@ -7,6 +7,7 @@ namespace GameEngine {
 
     int MinesweeperState::Run(RenderWindow &window) {
         _window = &window;
+        init();
 
         while (_window->isOpen()) {
             Event event;
