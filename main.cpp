@@ -14,7 +14,7 @@ int main() {
 
     pushScreens(screens);
 
-    int screen = 4, previous = -1;
+    int screen = 0, previous = -1;
     while (screen >= 0) {
         initialize_previous(previous);
         previous = screen;

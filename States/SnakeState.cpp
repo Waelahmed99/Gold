@@ -5,8 +5,6 @@ namespace GameEngine {
     void SnakeState::init() {
         // Screen properties.
         _width = 40, _height = 30, _tileSize = 16;
-        _window->create(VideoMode(_width * _tileSize, _height * _tileSize), SNAKE_NAME, Style::Close | Style::Titlebar);
-        _window->setPosition(Vector2i(200,80));
 
         // Game properties.
         srand(time(nullptr));
@@ -19,6 +17,8 @@ namespace GameEngine {
     int SnakeState::Run(RenderWindow &window) {
         _window = &window;
         init();
+        _window->create(VideoMode(_width * _tileSize, _height * _tileSize), SNAKE_NAME, Style::Close | Style::Titlebar);
+        _window->setPosition(Vector2i(200,80));
 
         Clock clock;
         _time = 0;
@@ -77,7 +77,7 @@ namespace GameEngine {
                 move();
             }
             draw();
-            if (clockTimer > 1) {
+            if (clockTimer > 1 && !_snake.ateSelf()) {
                 _time++;
                 clockTimer = 0;
             }
@@ -100,7 +100,7 @@ namespace GameEngine {
         RectangleShape border;
         border.setSize(Vector2f((_width - 14) * _tileSize, (_height - 6) * _tileSize));
         border.setPosition(7 * _tileSize,3 * _tileSize);
-        border.setOutlineColor(Color(107, 115, 127));
+        border.setOutlineColor(Color(57, 61, 90));
         border.setOutlineThickness(1);
         _window->draw(border);
 
@@ -120,6 +120,8 @@ namespace GameEngine {
 
         // Drawing snake's body.
         for (int i = 0; i < _snake.size; i++) {
+            if (_snake.x[i] == 0 && _snake.y[i] == 0)
+                continue;
             RectangleShape snakeRect;
             setRectangleProperties(snakeRect, _tileSize, Color(0, 200 - (i * 2), 0), _snake.x[i], _snake.y[i]);
             _window->draw(snakeRect);
