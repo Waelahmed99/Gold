@@ -4,15 +4,15 @@
 namespace GameEngine {
     void SnakeState::init() {
         // Screen properties.
-        _width = 30, _height = 20, _tileSize = 16;
+        _width = 40, _height = 30, _tileSize = 16;
         _window->create(VideoMode(_width * _tileSize, _height * _tileSize), SNAKE_NAME, Style::Close | Style::Titlebar);
         _window->setPosition(Vector2i(200,80));
 
         // Game properties.
         srand(time(nullptr));
-        _snake = Snake(0, 0, 4, Dir::RIGHT);
+        _snake = Snake(8, 7, 4, Dir::RIGHT);
         _snake.setCoord(_width, _height);
-        egg = Egg(10, 2);
+        egg = Egg(10, 10);
         _score = 0;
     }
 
@@ -21,13 +21,15 @@ namespace GameEngine {
         init();
 
         Clock clock;
-        float timer = 0;
+        _time = 0;
+        float timer = 0, clockTimer = 0;
         while (_window->isOpen()) {
             // Handling delays, delay is decreased by score (For difficulty)
             float speed = _score / 1000.0;
             float delay = 0.1 - (speed);
             float time = clock.restart().asSeconds();
             timer += time;
+            clockTimer += time;
 
             Event event;
             while (_window->pollEvent(event)) {
@@ -40,6 +42,9 @@ namespace GameEngine {
                                 return OFFLINE;
                             case Keyboard::Enter:
                                 init();
+                                break;
+                            case Keyboard::X:
+                                generateEgg();
                                 break;
                             case Keyboard::Left:
                                 if (isDirection(Dir::RIGHT, Dir::LEFT))
@@ -72,6 +77,11 @@ namespace GameEngine {
                 move();
             }
             draw();
+            if (clockTimer > 1) {
+                _time++;
+                clockTimer = 0;
+            }
+
         }
         return EXIT;
     }
@@ -81,28 +91,53 @@ namespace GameEngine {
 
         // Draw here.
 
+        RectangleShape background;
+        background.setFillColor(Color(38, 52, 69));
+        background.setSize(Vector2f(_width * _tileSize + 100, _height * _tileSize + 100));
+        _window->draw(background);
+
+
+        RectangleShape border;
+        border.setSize(Vector2f((_width - 14) * _tileSize, (_height - 6) * _tileSize));
+        border.setPosition(7 * _tileSize,3 * _tileSize);
+        border.setOutlineColor(Color(107, 115, 127));
+        border.setOutlineThickness(1);
+        _window->draw(border);
+
         // Draw map grid
-        for (int i = 0; i < _width; i++) {
-            for (int j = 0; j < _height; ++j) {
+        int cnt = 0;
+        for (int i = 7; i < _width - 7; i++) {
+            for (int j = 3; j < _height - 3; ++j) {
                 RectangleShape rect;
-                setRectangleProperties(rect, _tileSize, Color::White, i, j);
-                rect.setOutlineColor(Color::Black);
-                rect.setOutlineThickness(1);
+                setRectangleProperties(rect, _tileSize, Color(38, 52, 69), i, j);
+                if ((j + cnt) % 2 != 0)
+                    rect.setFillColor(Color(31, 41, 55));
+                rect.setOutlineThickness(0.2);
                 _window->draw(rect);
             }
+            cnt == 0 ? cnt++ : cnt--;
         }
 
         // Drawing snake's body.
         for (int i = 0; i < _snake.size; i++) {
             RectangleShape snakeRect;
-            setRectangleProperties(snakeRect, _tileSize, Color(255 - (i * 2), 0, 0), _snake.x[i], _snake.y[i]);
+            setRectangleProperties(snakeRect, _tileSize, Color(0, 200 - (i * 2), 0), _snake.x[i], _snake.y[i]);
             _window->draw(snakeRect);
         }
 
         // Drawing egg.
-        RectangleShape eggRect;
-        setRectangleProperties(eggRect, _tileSize - 1, Color::Green, egg.x, egg.y);
-        _window->draw(eggRect);
+        CircleShape eggCircle(_tileSize / 2);
+        eggCircle.setFillColor(Color::White);
+        eggCircle.setPosition(egg.x * _tileSize, egg.y * _tileSize);
+        _window->draw(eggCircle);
+
+        Font font; font.loadFromFile("../Resources/fonts/arial.ttf");
+        string time_score = "Time: " + to_string(_time) + "   Score: " + to_string(_score);
+        Text text(time_score, font , 18);
+        FloatRect rect = text.getGlobalBounds();
+        text.setOrigin(rect.left + rect.width/2.0, rect.top + rect.height/2.0);
+        text.setPosition(_width * _tileSize / 2, 20);
+        _window->draw(text);
 
         // Game is over.
         if (_snake.ateSelf()) {
@@ -119,6 +154,7 @@ namespace GameEngine {
             // Press Enter to restart text.
             Text msgText("Press Enter to restart", font, 25);
             setTextCoord(msgText, 70, Color::Black);
+
 
             _window->draw(gameOver);
             _window->draw(resultText);
@@ -154,6 +190,7 @@ namespace GameEngine {
                 firstTime = false;
             }
         }
+        cout << egg.x << " " << egg.y << endl;
     }
 
     /**

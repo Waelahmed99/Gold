@@ -40,10 +40,10 @@ void Snake::move() {
     else if (direction == Dir::DOWN) y[0]++;
 
     // If the snake crosses the screen, we have to bring it back to the opposite edge
-    if (x[0] < 0) x[0] = _width;
-    else if (x[0] > _width - 1) x[0] = 0;
-    else if (y[0] < 0) y[0] = _height;
-    else if (y[0] > _height - 1) y[0] = 0;
+    if (x[0] < 7) x[0] = _width - 8;
+    else if (x[0] > _width - 1 - 7) x[0] = 7;
+    else if (y[0] < 3) y[0] = _height - 4;
+    else if (y[0] > _height - 1 - 3) y[0] = 3;
 }
 
 /*

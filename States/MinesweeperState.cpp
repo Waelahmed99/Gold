@@ -2,7 +2,9 @@
 
 namespace GameEngine {
     void MinesweeperState::init() {
-        _window->setTitle(MINESWEEPER_NAME);
+        _width = 12, _height = 13, _tileSize = 20;
+        _window->create(VideoMode(_width * _tileSize, _height * _tileSize), MINESWEEPER_NAME);
+
     }
 
     int MinesweeperState::Run(RenderWindow &window) {
@@ -25,6 +27,16 @@ namespace GameEngine {
         _window->clear();
 
         // Draw here.
+        for (int i = 0; i < _width; i++) {
+            for (int j = 0; j < _height; j++) {
+                RectangleShape rect;
+                rect.setSize(Vector2f( _tileSize,  _tileSize));
+                rect.setPosition(i * _tileSize, j * _tileSize);
+                rect.setFillColor(Color::White);
+                rect.setOutlineColor(Color::Black);
+                _window->draw(rect);
+            }
+        }
 
         _window->display();
     }

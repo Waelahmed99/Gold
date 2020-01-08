@@ -8,7 +8,8 @@ namespace GameEngine {
         int Run(RenderWindow&) override;
 
     private:
-        RenderWindow* _window;
+        unsigned int _width, _height;
+        unsigned int _tileSize;
 
         void draw() override;
         void init() override;

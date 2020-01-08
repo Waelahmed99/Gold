@@ -13,6 +13,7 @@ namespace GameEngine {
         int Run(RenderWindow&) override;
 
     private:
+        int _time;
         Snake _snake;
         Egg egg;
         int _width, _height;
